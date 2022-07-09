@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2022": true,
+        "node": true
+    },
+    "extends": ["plugin:vue/essential", "prettier"],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "plugins": ["vue", "prettier"],
+    "rules": {
+        "prettier/prettier": "error",
+        "vue/multi-word-component-names": 0
+    }
+}
